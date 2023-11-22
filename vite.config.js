@@ -1,8 +1,13 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/News/",
+  base: '/News/',
   plugins: [react()],
-})
+  build: {
+    rollupOptions: {
+      external: ['@fortawesome/react-fontawesome'],
+    },
+  },
+});
+
