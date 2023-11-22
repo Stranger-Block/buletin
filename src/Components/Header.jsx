@@ -2,8 +2,8 @@
 import './Header.css';
 
 // Import Font Awesome Icon component and icons
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPenToSquare, faBell, faCircleUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPenToSquare, faBell, faCircleUser } from "@fortawesome/free-solid-svg-icons";
 
 // Header component function
 function Header() {

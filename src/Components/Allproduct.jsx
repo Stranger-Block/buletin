@@ -1,6 +1,6 @@
 // Import libraries and components
 import { useEffect, useState } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 // AllProducts component to display a list of products
 function AllProducts() {

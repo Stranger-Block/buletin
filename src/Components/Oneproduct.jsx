@@ -1,6 +1,6 @@
 // Import required components and libraries
 import { useEffect, useState } from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 // OneProduct component displaying a single product card
 function OneProduct() {
