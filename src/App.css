@@ -1,0 +1,25 @@
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: auto;
+}
+
+/* Custom styles for class 'classclass' */
+.classclass {
+  display: flex;
+  max-width: 1180px;
+  max-height: auto;
+  border: 2px solid red;
+  margin: 0 auto; /* using shorthand for margin-inline */
+  padding: 0 auto; /* using shorthand for padding-inline */
+  overflow: auto;
+}
+
+/* Custom styles for class 'span23' */
+.span23 {
+  font-size: large;
+  align-items: center;
+}

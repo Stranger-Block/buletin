@@ -1,0 +1,54 @@
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Remove default list and text decoration styles */
+  * {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /* Set default font family for body text */
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Set background color, flex behavior, text alignment, and border radius for the main content section */
+  .Box-Content-Section {
+    background-color: rgba(245, 245, 245);
+    flex: content;
+    text-align: center;
+    border-radius: 30px;
+  }
+  
+  /* Add padding and margin to the content container, set display to flow-root, justify content to center, and font weight to bold */
+  .Box-Content {
+    padding: 30px;
+    margin: 10px;
+    display: flow-root;
+    justify-content: center;
+    font-weight: 800;
+  }
+  
+  /* Increase font size by 160% and set font family for contentboxes 2 and 3 */
+  .contentbox2, .contentbox3 {
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Set font size to medium, add letter spacing, and set font family for contentbox 1 */
+  .contentbox1 {
+    font-size: medium;
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Set text color to red and font family for red text */
+  .red-text {
+    color: rgb(234, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

@@ -1,0 +1,67 @@
+/* Universal selector with margin, padding, box-sizing and justify-content reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+/* Main container styling */
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main icon styling */
+.main-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: red;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+/* Main icon paragraph styling */
+.main-icon p {
+  /* Redundant properties removed as inherited from .main-icon */
+  margin-left: 30px;
+}
+
+/* Main navigation styling */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Unordered list styling */
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  width: 60%;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding-right: 250px;
+}
+
+/* Icon group styling */
+.icon-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  margin: 5px 10px 0; /* Combined margin properties for conciseness */
+  font-size: larger;
+}
+
+/* List item styling */
+li {
+  font-size: 120%;
+  font-weight: 600;
+  color: black;
+}

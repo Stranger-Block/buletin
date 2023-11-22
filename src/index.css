@@ -1,0 +1,15 @@
+/* Reset styles for all elements */
+* {
+    margin: 0;     /* Remove default margin */
+    padding: 0;    /* Remove default padding */
+    box-sizing: border-box;  /* Use border-box for consistent sizing */
+  }
+  
+  /* Styles for the body element */
+  body {
+    font-family: 'Times New Roman', Times, serif; /* Set font for body */
+    display: flex;   /* Set display to flexbox */
+  }
+  
+
+  
