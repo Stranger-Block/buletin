@@ -1,11 +1,11 @@
 {
-  "homepage": "http://Stranger-Block.github.io/News/",
+  "homepage":"https://Stranger-block.github.io/buletin/",
   "name": "buletin",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",

@@ -1,18 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Vite/',
+  base:"/buletin",
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: [
-        '@fortawesome/react-fontawesome',
-        '@fortawesome/free-brands-svg-icons',
-        '@fortawesome/free-solid-svg-icons', // Add this line
-        'react-bootstrap',
-        // Add other external dependencies if needed
-      ],
-    },
-  },
-});
+})
